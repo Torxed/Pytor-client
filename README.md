@@ -1,4 +1,6 @@
 # Pytor-client
+
+[![Join the chat at https://gitter.im/Torxed/Pytor-client](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Torxed/Pytor-client?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A tiny Python based Torrent client!
 
 How to use
