@@ -17,7 +17,7 @@ class worker(Thread):
         self.sock.close()
 
 s = socket()
-s.connect(('95.109.122.86', 37874))
+s.connect(('YOUR WORKING CLIENT IP', 37874))
 w = worker(s)
 
 # Handshake
