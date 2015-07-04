@@ -8,6 +8,15 @@ from select import epoll, EPOLLIN, EPOLLOUT, EPOLLHUP
 from base64 import b64decode as bdec
 from base64 import b64encode as benc
 
+## == References:
+#  -- * https://wiki.theory.org/BitTorrentSpecification
+#  -- * http://www.libtorrent.org/extension_protocol.html
+#  -- * http://www.bittorrent.org/beps/bep_0003.html
+#  -- * wireshark
+#  -- * qtorrent
+#  -- * utorrent
+#  -- * rtorrent
+
 my_peer_id = b'-pt0001-' + os.urandom(20-8)
 
 #coreSock = socket(AF_INET, SOCK_DGRAM)
